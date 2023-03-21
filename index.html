@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/main.css">
@@ -10,56 +12,80 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
-<body>
-  <section>
+
+<body class="font-body">
+  <section class="my-4">
     <div class="container mx-auto text-center border border-sky-500 p-4 mt-10">
       <h1 class="text-lg font-extralight">Reliable, efficient delivery</h1>
       <h2 class="text-lg font-semibold mb-4">Powered by Technology</h2>
-      <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+      <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is
+        successful</p>
     </div>
-    <div class="container-box flex">
-      <div class="box-one">
+    <div class="flex flex-col space-y-4 ">
+      <!-- This is the first box -->
+      <div class="border border-t-4 border-blue-400 p-6 shadow-xl">
         <h3>Supervisor</h3>
         <p>Monitors activity to identify project roadblocks</p>
-      </div>
-      <div class="box-two">
-        <div class="box-two-upper">
-            <h3>Team Builder</h3>
-            <p>Scans our talent network to create the optimal team for your project</p>
+        <div class="float-right p-4">
+          <img src="/images/icon-supervisor.svg" alt="supervisor-icon">
         </div>
-        <div class="box-two-lower">
+      </div>
+      <!-- This is the second box  -->
+      <div class="space-y-4">
+        <div class="border border-t-4 border-red-400 p-6 shadow-md">
+          <h3>Team Builder</h3>
+          <p>Scans our talent network to create the optimal team for your project</p>
+          <div class=" p-4">
+            <img src="/images/icon-team-builder.svg" alt="team-builder">
+          </div>
+        </div>
+        <div class="border border-t-4 border-orange-400 p-6 shadow-xl">
           <h3>Karma</h3>
           <p>Regularly evaluates our talent to ensure quality</p>
+          <div class="p-4">
+            <img src="/images/icon-karma.svg" alt="karma">
+          </div>
         </div>
       </div>
-      <div class="box-three">
+      <!-- this is the thirdbox(calculator) -->
+      <div class="border border-t-4 border-blue-400 p-6 shadow-xl">
         <h3>Calculator</h3>
         <p>Uses data from past projects to provide better delivery estimates</p>
+        <div class="float-right p-4">
+          <img src="/images/icon-calculator.svg" alt="calculator">
+        </div>
       </div>
+
     </div>
   </section>
-  
-  
 
-  
 
-  
-  
 
-  
-  
 
-  
-  
 
-  
-  
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
@@ -67,4 +93,5 @@
     </p>
   </footer> -->
 </body>
+
 </html>

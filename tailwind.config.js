@@ -17,6 +17,9 @@ module.exports = {
         VeryDarkBlue: 'hsl(234, 12%, 34%)',
         GrayishBlue: 'hsl(229, 6%, 66%)',
         VeryLightGray: 'hsl(0, 0%, 98%)',
+      },
+      fontFamily: {
+        body: ['Poppins']
       }
     },
   },
